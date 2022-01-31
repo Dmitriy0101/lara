@@ -1,0 +1,36 @@
+.accordion {
+    width: 100%;
+    transition: 0.5s;
+    text-align: left;
+    margin-bottom: 6px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    position: relative;
+
+    &__block {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 19px;
+        right: 0;
+        font-weight: bold;
+        background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 10 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23202454' stroke-width='2'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+    }
+}
+
+.open:after {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' fill='none' viewBox='0 0 14 9' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 8L7 2L13 8' stroke='%23202454' stroke-width='2'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,37 @@
+.catalog-content {
+    max-width: 664px;
+    padding-left: 50px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        padding: 14px 12px;
+        margin-right: 8px;
+        margin-bottom: 12px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7B94B0;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(84, 143, 199, 0.15);
+        border-radius: 12px;
+
+        &:hover {
+            color: #202454;
+        }
+        @media(max-width: 600px) {
+            padding: 10px 8px;
+            font-size: 12px;
+        } @media(max-width: 375px) {
+            margin-right: 6px;
+            margin-bottom: 8px;
+        }
+    }
+    @media(max-width: 1000px) {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+}

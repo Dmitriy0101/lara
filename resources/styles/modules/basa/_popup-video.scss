@@ -1,0 +1,11 @@
+.popup-video {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    z-index: 1;
+
+    @media (max-width: 769px) {
+        top: 32%;
+        left: 35%;
+    }
+}

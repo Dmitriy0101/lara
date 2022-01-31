@@ -1,0 +1,30 @@
+.search-form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__input {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+    }
+
+    &__out {
+        position: absolute;
+        right: 0;
+    }
+
+    &__seek {
+        position: absolute;
+        right: 20%;
+    }
+
+    input {
+        color: #7B94B0;
+
+        opacity: 0.5;
+    }
+}

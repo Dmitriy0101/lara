@@ -1,0 +1,118 @@
+.form-authorization {
+    &__title {
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 115%;
+        color: #202454;
+    }
+
+    &__tel {
+        position: relative;
+        margin-bottom: 32px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 12px;
+        label {
+            position: absolute;
+            left: 16px;
+            top: 16px;
+            transition: top 0.5s;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 114%;
+            color: #7B94B0;
+        }
+        input{
+            display: block;
+            width: 100%;
+            padding: 22px 0 10px 16px;
+            margin: auto;
+            font-size: 14px;
+            line-height: 114%;
+            color: #202454;
+
+        }
+        input:focus{
+            outline: none;
+            background-size: 100% 100%, 100% 100%;
+            transition-duration: 0.3s;
+            box-shadow: none;
+        }
+        input:focus+label,
+        input:not(:placeholder-shown)+label{
+            top: 6px;
+        }
+        ::-webkit-input-placeholder {
+            opacity: 0;
+        }
+        input:focus::-webkit-input-placeholder{
+            opacity: 1;
+        }
+    }
+
+    &__help {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 116%;
+        text-align: center;
+        color: #7B94B0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 120px;
+            left: 0;
+            bottom: 50%;
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 120px;
+            right: 0;
+            bottom: 50%;
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+    }
+
+    &__social {
+        width: 196px;
+        height: 47px;
+        margin-right: 10px;
+        border: 1px solid #2C9323;
+        box-sizing: border-box;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__check {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-top: 26px;
+    }
+    &__block{
+        display: none;
+    }
+    &__info{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 118%;
+        color: #202454;
+        margin-bottom: 24px;
+    }
+}

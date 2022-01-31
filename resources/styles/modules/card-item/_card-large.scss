@@ -1,0 +1,84 @@
+.card-large {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    &__png {
+        width: 56px;
+        height: 56px;
+        margin-top: 55px;
+        margin-left: 18px;
+        background-image: url(/img/catalog/animal.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    &__svg {
+        position: absolute;
+        background: #E77E42;
+        bottom: 0;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    &__favorites {
+        position: absolute;
+        right: 8%;
+        top: 1%;
+        background: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 4px 12px rgba(84, 143, 199, 0.15);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__video {
+        position: absolute;
+        bottom: 13%;
+        left: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    &__vid {
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #E77E42;
+    }
+    &__im{
+        position: relative;
+        padding-top: 100%;
+    }
+    &__img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+

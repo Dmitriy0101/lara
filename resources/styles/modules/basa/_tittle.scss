@@ -1,0 +1,44 @@
+.title {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 118%;
+  @media (max-width: 1150px) {
+    font-size: 34px;
+  }
+    @media(max-width: 500px) {
+        font-size: 25px;
+    }
+
+  &--green {
+    color: #275420;
+  }
+
+  &--black {
+    color: #202454;
+
+    @media (max-width: 680px) {
+      text-align: center;
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+    @media (max-width: 380px) {
+      font-size: 26px;
+    }
+  }
+  &__black {
+    color: #202454;
+    margin-bottom: 24px;
+
+    &--big {
+      font-size: 40px;
+    }
+
+    &--small {
+      font-size: 24px;
+    }
+
+    @media (max-width: 760px) {
+      font-size: 20px;
+    }
+  }
+}

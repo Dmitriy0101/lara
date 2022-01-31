@@ -1,0 +1,25 @@
+.corp {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-right: 6px;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 128%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

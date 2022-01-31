@@ -1,0 +1,60 @@
+.filter {
+    margin-top: -96px;
+    @media(max-width: 1000px) {
+        margin-top: -36px;
+
+    }
+
+    &__lable {
+        min-width: 250px;
+        height: 225px;
+        border-radius: 0 0 12px 12px;
+    }
+
+
+    &__result {
+        padding-left: 16px;
+        padding-right: 10px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #7B94B0;
+        @media(max-width: 500px) {
+            font-size: 14px;
+        }
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        @media(max-width: 500px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        display: flex;
+        background: #F4F5F8;
+        border-radius: 3px;
+        padding: 7px 16px 7px 8px;
+        margin-right: 8px;
+        @media(max-width: 500px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__name {
+        padding-right: 8px;
+    }
+
+    &__delete {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #E77E42;
+
+        border-bottom: 1px dashed #E77E42;
+    }
+}

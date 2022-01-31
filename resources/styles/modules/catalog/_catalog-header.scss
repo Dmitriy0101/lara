@@ -1,0 +1,9 @@
+.catalog-header {
+    display: flex;
+    padding-top: 70px;
+    @media(max-width: 1000px) {
+        padding-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

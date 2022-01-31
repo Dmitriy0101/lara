@@ -1,0 +1,81 @@
+.search-card {
+    display: flex;
+    margin-bottom: 42px;
+
+    &__block {
+        width: 33.33%;
+    }
+
+    &__itm {
+
+    }
+
+    &__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #202454;
+        padding-bottom: 16px;
+    }
+
+    &__item {
+        display: flex;
+        padding-bottom: 24px;
+        padding-right: 36px;
+    }
+
+    &__img {
+        padding-right: 8px;
+    }
+
+    &__content {
+    }
+
+    &__info {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #202454;
+        padding-bottom: 8px;
+
+        &:hover {
+            color: #606EEA;
+        }
+    }
+
+    &__cost {
+        display: flex;
+    }
+
+    &__oldcost {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 140%;
+        text-decoration-line: line-through;
+        padding-right: 4px;
+        color: #DEE4EB;
+    }
+
+    &__newcost {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 140%;
+        color: #202454;
+    }
+
+    &__all {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #2C9323;
+        padding-top: 16px;
+    }
+    &__btn{
+        margin-left: 35%;
+        padding: 14px 73px 14px 73px;
+        margin-bottom: 54px;
+    }
+}

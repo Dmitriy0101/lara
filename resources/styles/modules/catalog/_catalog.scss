@@ -1,0 +1,43 @@
+.catalog {
+
+    &__top {
+        margin-top: -96px;
+        width: 100%;
+        background-image: url("/img/catalog/dog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        @media(max-width: 1000px) {
+            margin-top: -30px;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #202454;
+
+        &--normal {
+            font-weight: normal;
+        }
+        @media(max-width: 1000px) {
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+
+    &__subtitle {
+        padding-top: 24px;
+        padding-bottom: 40px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #202454;
+        @media(max-width: 1000px) {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    }
+}

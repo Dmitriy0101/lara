@@ -1,0 +1,30 @@
+.slider-nav {
+    position: absolute;
+    top: 0;
+}
+
+.slider-nav.slick-slide .slick-active {
+    border: 2px solid #229754;
+    border-radius: 5px;
+}
+
+.slider-nav .slick-slider {
+    left: 0;
+    opacity: 1;
+}
+
+.slider-nav .slick-list {
+    overflow: hidden;
+}
+
+.slider-nav img {
+    padding: 1px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+
+    &:hover {
+        border: 1px solid #E77E42;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,25 @@
+.filter-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @media(max-width: 400px) {
+        justify-content: center;
+    }
+
+    &__item {
+        width: 22%;
+        padding: 0 15px 76px 15px;
+        @media(max-width: 1400px) {
+            width: 30%;
+        }
+        @media(max-width: 800px) {
+            padding: 0 7px 36px 7px;
+        }
+        @media(max-width: 500px) {
+            width: 45%;
+        }
+        @media(max-width: 400px) {
+            width: 70%;
+        }
+    }
+}

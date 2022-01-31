@@ -1,0 +1,103 @@
+.catalog-label {
+    min-width: 330px;
+    height: 100%;
+    box-shadow: 0px 4px 12px rgba(84, 143, 199, 0.15);
+
+
+    &__top {
+        padding: 16px 16px 36px 16px;
+        border-radius: 12px 12px 0 0;
+        display: flex;
+        justify-content: space-between;
+        background-image: url("/img/catalog/fon1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 13px;
+            left: 27%;
+            width: 167px;
+            height: 48px;
+            background-image: url("/img/catalog/fon2.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 36px;
+            left: calc(50% - 88px / 2);
+            width: 88px;
+            height: 88px;
+            background-image: url("/img/catalog/animal.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            z-index: 1;
+        }
+
+        @media(max-width: 600px) {
+            padding-bottom: 28px;
+        }
+    }
+
+    &__text {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 0 0 12px 12px;
+        padding-top: 56px;
+        padding-bottom: 27px;
+    }
+
+    &__info {
+        padding-bottom: 7px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #202454;
+    }
+
+    &__button {
+        padding: 9px 21px;
+        border: 1px solid #E77E42;
+        box-sizing: border-box;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #E77E42;
+
+        &:hover {
+            color: #202454;
+            border: 1px solid #202454;
+        }
+    }
+
+    &__result {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #7B94B0;
+    }
+
+    @media(max-width: 1000px) {
+        order: 1;
+    }
+    @media(max-width: 600px) {
+        min-width: 300px;
+    }
+}

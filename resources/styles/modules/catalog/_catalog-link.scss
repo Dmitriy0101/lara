@@ -1,0 +1,49 @@
+.catalog-link {
+    padding-left: 8%;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+
+    &__itm {
+        padding-bottom: 16px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #202454;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        &:hover {
+            color: #E77E42;
+        }
+    }
+
+    &__all {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #E77E42;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 105px;
+            border-bottom: 1px solid #E77E42;
+        }
+
+        &:hover {
+            color: black;
+
+            &:after {
+                border-bottom: 1px solid #202454;
+            }
+        }
+    }
+
+
+}

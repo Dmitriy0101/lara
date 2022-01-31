@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+@import '~normalize.css';
+
+@import '~magnific-popup/dist/magnific-popup.css';
+
+@import '~ion-rangeslider/css/ion.rangeSlider.min.css';
+@import 'defolt';
+@import 'sprite';
+
+// <------ Dropdown-menu START ------>
+@import 'modules/dropdown-menu/menu';
+@import 'modules/dropdown-menu/menu-item';
+@import 'modules/dropdown-menu/menu-link';
+@import 'modules/dropdown-menu/menu-list';
+// <------ Dropdown-menu START ------>
+
+// <------ Authorization START ------>
+@import 'modules/authorization/login';
+@import 'modules/authorization/login-accordion';
+@import 'modules/authorization/form-authorization';
+@import 'modules/authorization/stock';
+// <------ Authorization END ------>
+
+// <------ BASA START ------>
+@import 'modules/basa/btn-back';
+@import 'modules/basa/magnific-popup';
+@import 'modules/basa/form';
+@import 'modules/basa/popup';
+@import 'modules/basa/button';
+@import 'modules/basa/popup-video';
+@import 'modules/basa/circle';
+@import 'modules/basa/labels';
+@import 'modules/basa/label';
+@import 'modules/basa/scroll-up';
+@import 'modules/basa/tittle';
+// <------ BASA END ------>
+
+
+// <------ HEADER START ------>
+@import 'modules/header/header';
+@import 'modules/header/header-menu';
+@import 'modules/header/header-search';
+@import 'modules/header/search-form';
+@import 'modules/header/region';
+@import 'modules/header/top-left';
+@import 'modules/header/top-right';
+@import 'modules/header/dropdown';
+@import 'modules/header/dropdown-phones';
+@import 'modules/header/search';
+@import 'modules/header/lang';
+@import 'modules/header/logotip';
+@import 'modules/header/bottom-left';
+@import 'modules/header/directory';
+@import 'modules/header/bottom-right';
+@import 'modules/header/header-actions';
+@import 'modules/header/shopping-card';
+// <------ HEADER END ------>
+
+
+// <------ MOBILE-MENU START ------>
+@import 'modules/mobile-menu/menu-mobile';
+@import 'modules/mobile-menu/menu-button';
+@import 'modules/mobile-menu/mobile-nav';
+// <------ MOBILE-MENU END ------>
+
+
+// <------ SLIDER START ------>
+@import 'modules/slider/best';
+@import 'modules/slider/best-deals';
+@import 'modules/slider/slider';
+@import 'modules/slider/card';
+@import 'modules/slider/new-price';
+@import 'modules/slider/rating';
+@import 'modules/slider/trade';
+@import 'modules/slider/trade-body';
+@import 'modules/slider/old-price';
+// <------ SLIDER END ------>
+
+// <------ BLOG START ------>
+@import 'modules/blog/block-blog';
+@import 'modules/blog/block-search';
+@import 'modules/blog/blog';
+@import 'modules/blog/blog-card';
+@import 'modules/blog/blog-catalog';
+@import 'modules/blog/blog-calendar';
+@import 'modules/blog/link-blog';
+// <------ BLOG END ------>
+
+// <------ BENEFIT START ------>
+@import 'modules/benefit/benefit';
+@import 'modules/benefit/benefit-block';
+// <------ BENEFIT END ------>
+
+// <------ SEO START ------>
+@import 'modules/seo/seo';
+@import 'modules/seo/seo-block';
+@import 'modules/seo/seo-short__toggle';
+// <------ SEO END ------>
+
+// <------ RESULT START ------>
+@import 'modules/search-result/result';
+@import 'modules/search-result/search-card';
+@import 'modules/search-result/search-result';
+// <------ RESULT END ------>
+
+// <------ FOOTER START ------>
+@import 'modules/footer/about';
+@import 'modules/footer/email';
+@import 'modules/footer/corp';
+@import 'modules/footer/block-info';
+@import 'modules/footer/feedback';
+@import 'modules/footer/footer-about';
+@import 'modules/footer/footer-body';
+@import 'modules/footer/footer-line';
+@import 'modules/footer/footer-social';
+@import 'modules/footer/payment';
+@import 'modules/footer/registration';
+@import 'modules/footer/site-info';
+@import 'modules/footer/social';
+@import 'modules/footer/social-link';
+// <------ FOOTER END ------>
+
+// <------ CATALOG START ------>
+@import 'modules/catalog/catalog';
+@import 'modules/catalog/catalog-list';
+@import 'modules/catalog/catalog-link';
+@import 'modules/catalog/catalog-content';
+@import 'modules/catalog/catalog-header';
+@import 'modules/catalog/catalog-card';
+@import 'modules/catalog/catalog-label';
+// <------ CATALOG END ------>
+
+// <------ CATALOG-FILTER START ------>
+@import 'modules/catalog-filter/filter';
+@import 'modules/catalog-filter/accordion';
+@import 'modules/catalog-filter/filter-block';
+@import 'modules/catalog-filter/sidebar-block';
+@import 'modules/catalog-filter/checkbox-filter';
+@import 'modules/catalog-filter/filter-header';
+@import 'modules/catalog-filter/filter-categories';
+@import 'modules/catalog-filter/filter-button';
+@import 'modules/catalog-filter/filter-card';
+@import 'modules/catalog-filter/filter-pagination';
+@import 'modules/catalog-filter/chapter';
+@import 'modules/catalog-filter/filter-right';
+// <------ CATALOG-FILTER END ------>
+
+
+@import 'modules/range-slider/range-slider';
+@import 'modules/range-slider/extra-controls';
+
+
+@import 'modules/card-item/slider-for';
+@import 'modules/card-item/slider-nav';
+@import 'modules/card-item/product';
+@import 'modules/card-item/product-about';
+@import 'modules/card-item/card-large';
+@import 'modules/card-item/product-weight';
+@import 'modules/card-item/product-price';

@@ -1,0 +1,19 @@
+.email {
+  display: flex;
+  margin-top: 24px;
+  opacity: 1;
+
+  &__txt {
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-right: 2px;
+  }
+
+  &__link {
+    color: #FFFFFF;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

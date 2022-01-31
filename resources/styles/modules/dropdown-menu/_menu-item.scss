@@ -1,0 +1,47 @@
+.menu-item {
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px 0;
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 180px;
+        padding: 12px 20px 8px 20px;
+
+        &:hover {
+            background: #FFFFFF;
+
+            .animals,
+            .arrow-right {
+                stroke: #2C9323;
+            }
+
+            .black-star,
+            .percent {
+                fill: #2C9323;
+            }
+
+            .menu-item__content {
+                color: #2C9323;
+            }
+        }
+    }
+
+    &__content {
+        padding: 0 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #202454;
+    }
+
+    &__svg {
+
+    }
+
+
+}

@@ -1,0 +1,35 @@
+.menu-button {
+  @media (min-width: 992px) {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 1000px) {
+    margin-top: 2px;
+  }
+  @media (max-width: 450px) {
+    margin-top: 10px;
+  }
+
+  & .icon-menu {
+    display: none;
+  }
+
+  &.is-open {
+    .icon-menu {
+      display: block;
+    }
+
+    .icon-exit {
+      display: none;
+    }
+  }
+}
+
+.icon {
+  @media (max-width: 450px) {
+    width: 17px;
+    height: 17px;
+  }
+
+}

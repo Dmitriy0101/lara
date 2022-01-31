@@ -1,0 +1,42 @@
+.block-info {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__website {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    padding-bottom: 21px;
+    padding-top: 20px;
+    border-top: 1px solid #456E42;
+
+    @media (max-width: 425px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__website-payment {
+    @media (max-width: 425px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__website-corp {
+    display: flex;
+    align-items: center;
+  }
+
+  &__about {
+
+    @media (max-width: 1400px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.catalog-card {
+
+    position: relative;
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__itm {
+        position: relative;
+        padding-top: 121%;
+    }
+
+    &__title {
+        bottom: 15%;
+        left: 8%;
+        position: absolute;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+        @media(max-width: 1000px) {
+            font-size: 20px;
+        }
+        @media(max-width: 425px) {
+            font-size: 16px;
+        }
+    }
+
+    &__toggle {
+        display: flex;
+        align-items: center;
+        bottom: 8%;
+        left: 8%;
+        position: absolute;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+
+        &:hover {
+            color: #E77E42;
+
+            .arrow-right--white {
+                stroke: #E77E42;
+            }
+        }
+    }
+}

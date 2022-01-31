@@ -1,0 +1,107 @@
+.product-about {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    &__left {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 42%;
+            padding-right: 24px;
+            box-sizing: border-box;
+            position: relative;
+        }
+    }
+
+    &__right {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 58%;
+            box-sizing: border-box;
+        }
+    }
+
+    &__body {
+        width: 50%;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+        span {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #7B94B0;
+            margin-right: 12px;
+        }
+    }
+
+    &__block {
+        display: flex;
+        margin-bottom: 32px;
+    }
+
+    &__calc {
+        width: 120px;
+        height: 40px;
+        background: #F4F5F8;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #202454;
+
+        &:after {
+            content: '\2501';
+            position: absolute;
+            left: 12px;
+        }
+
+        &:before {
+            content: '\254B';
+            position: absolute;
+            right: 12px;
+        }
+    }
+
+    &__col {
+        display: flex;
+        margin-bottom: 22px;
+    }
+
+    &__chapter {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 140%;
+        color: #202454;
+
+        span {
+            border-bottom: 1px dashed #202454;
+            margin-bottom: 2px;
+        }
+    }
+
+    &__button {
+        max-width: 338px;
+    }
+
+    &__text {
+        margin-left: 16px;
+    }
+}

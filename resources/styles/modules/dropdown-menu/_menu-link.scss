@@ -1,0 +1,46 @@
+.menu-link {
+    margin-bottom: 32px;
+    width: 18%;
+    padding-right: 20px;
+    @media (max-width: 1100px) {
+        width: 22%;
+    }
+
+    &__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #202454;
+        padding-bottom: 16px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content-item {
+        padding-bottom: 8px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: #7B94B0;
+
+        &:hover {
+            color: #202454;
+        }
+    }
+
+    &__see {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #2C9323;
+
+        &:hover {
+            color: #202454;
+        }
+    }
+}

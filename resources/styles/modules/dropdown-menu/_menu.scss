@@ -1,0 +1,16 @@
+.menu {
+    display: none;
+    background: #F4F5F8;
+    position: absolute;
+    height: 681px;
+    left: -3.5%;
+    top: 100%;
+    z-index: 100;
+    width: 24.5%;
+}
+.directory__item:hover .menu{
+    display: block;
+}
+.menu:hover .menu-list {
+    display: block;
+}

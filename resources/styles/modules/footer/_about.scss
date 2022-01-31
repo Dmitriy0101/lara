@@ -1,0 +1,55 @@
+.about__link-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    opacity: 1;
+  }
+
+
+}
+
+.about__list-info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+
+  &--day {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    opacity: 0.6;
+  }
+}
+
+.about__list-tel {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 115%;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #10E17D;
+  opacity: 1;
+
+  &:hover {
+    color: #fff;
+  }
+}

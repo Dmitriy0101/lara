@@ -1,0 +1,14 @@
+.stock {
+    display: flex;
+    padding: 30px;
+    background: #EBF5FF;
+    border-radius: 12px;
+
+    &__txt {
+        padding-left: 30px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 118%;
+        color: #202454;
+    }
+}

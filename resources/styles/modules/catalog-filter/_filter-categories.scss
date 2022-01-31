@@ -1,0 +1,40 @@
+.filter-categories {
+    padding-top: 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E0E0E0;
+
+    &__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #202454;
+        padding-bottom: 24px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 8px;
+    }
+
+    &__link {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #202454;
+    }
+
+    &__col {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7B94B0;
+    }
+}
