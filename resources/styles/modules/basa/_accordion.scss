@@ -27,6 +27,18 @@
         background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 10 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23202454' stroke-width='2'/%3E%3C/svg%3E%0A");
         background-repeat: no-repeat;
     }
+
+    &--txt {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #202454;
+
+        span {
+            color: #E77E42;
+            border-bottom: 1px dashed #3A9EFD;
+        }
+    }
 }
 
 .open:after {

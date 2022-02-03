@@ -4,6 +4,40 @@
             'rate' => 4,
         ]
                  ];
+$arrayCharacteristics = [
+    [
+        'label' => 'Артикул',
+        'value' => 'ТМ 34673474578'
+    ],
+    [
+        'label' => 'Для кого корм?',
+        'value' => 'Для собак'
+    ],
+    [
+        'label' => 'Класс корма',
+        'value' => 'Супер премиум'
+    ],
+    [
+        'label' => 'Форма выпуска корма',
+        'value' => 'Сухой корм'
+    ],
+    [
+        'label' => 'Возраст собаки',
+        'value' => 'Взрослые собаки'
+    ],
+    [
+        'label' => 'Размер породы',
+        'value' => 'Средние породы (10-25 кг)'
+    ],
+    [
+        'label' => 'Основной источник протеинов в корме',
+        'value' => 'Ягненок'
+    ],
+    [
+        'label' => 'Особые потребности в питании',
+        'value' => 'Аллергии Чувствительный желудок'
+    ],
+                        ];
 @endphp
 <div class="product">
     <div class="container container--medium">
@@ -33,7 +67,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -53,7 +87,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -73,7 +107,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -93,7 +127,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -113,7 +147,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -133,7 +167,7 @@
                             </div>
                             <div class="card-large__png">
                                 <div class="card-large__svg">
-                                    <svg width="12" height="8">
+                                    <svg class="check" width="12" height="8">
                                         <use xlink:href="dist/icons.svg#check"></use>
                                     </svg>
                                 </div>
@@ -259,8 +293,181 @@
                                     <div class="button__text product-about__text">Купить</div>
                                 </a>
                             </div>
+                            <div class="product-about__button">
+                                <a href="#" class="product-about__btn">
+                                    <div class="product-about__txt">Купить в 1 клик</div>
+                                </a>
+                            </div>
+                            <div class="product-about__stock">
+                                <div class="product-about__svg">
+                                    <svg class="check check--black" width="14" height="8">
+                                        <use xlink:href="dist/icons.svg#check"></use>
+                                    </svg>
+                                </div>
+                                <div class="product-about__info">В наличии в 7 магазинах</div>
+                            </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="product-about__del">
+                    <div class="product-about__item">
+                        <button class="accordion accordion--txt">Доставка в: <span>Запорожье</span></button>
+                        <div class=" accordion__block">
+                            <div class="product-delivery">
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из наших магазинов</div>
+                                    <div class="product-delivery__time">Забрать сегодня с 16:00</div>
+                                    <div class="product-delivery__coast">Бесплатно</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из Новой Почты</div>
+                                    <div class="product-delivery__time">Отправим завтра</div>
+                                    <div class="product-delivery__coast">50 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из JustIn</div>
+                                    <div class="product-delivery__time">Отправим сегодня</div>
+                                    <div class="product-delivery__coast">59 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__all">
+                                        <div class="product-delivery__rule">Все варианты и правила доставки</div>
+                                        <svg class="arrow" width="14" height="8">
+                                            <use xlink:href="dist/icons.svg#arr-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-about__item">
+                        <button class="accordion accordion--txt">Варианты оплаты</button>
+                        <div class=" accordion__block">
+                            <div class="product-delivery">
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из наших магазинов</div>
+                                    <div class="product-delivery__time">Забрать сегодня с 16:00</div>
+                                    <div class="product-delivery__coast">Бесплатно</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из Новой Почты</div>
+                                    <div class="product-delivery__time">Отправим завтра</div>
+                                    <div class="product-delivery__coast">50 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из JustIn</div>
+                                    <div class="product-delivery__time">Отправим сегодня</div>
+                                    <div class="product-delivery__coast">59 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__all">
+                                        <div class="product-delivery__rule">Все варианты и правила доставки</div>
+                                        <svg class="arrow" width="14" height="8">
+                                            <use xlink:href="dist/icons.svg#arr-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-about__item">
+                        <button class="accordion accordion--txt">Гарантия и возврат</button>
+                        <div class=" accordion__block">
+                            <div class="product-delivery">
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из наших магазинов</div>
+                                    <div class="product-delivery__time">Забрать сегодня с 16:00</div>
+                                    <div class="product-delivery__coast">Бесплатно</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из Новой Почты</div>
+                                    <div class="product-delivery__time">Отправим завтра</div>
+                                    <div class="product-delivery__coast">50 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__type">Самовывоз из JustIn</div>
+                                    <div class="product-delivery__time">Отправим сегодня</div>
+                                    <div class="product-delivery__coast">59 ₴</div>
+                                </div>
+                                <div class="product-delivery__item">
+                                    <div class="product-delivery__all">
+                                        <div class="product-delivery__rule">Все варианты и правила доставки</div>
+                                        <svg class="arrow" width="14" height="8">
+                                            <use xlink:href="dist/icons.svg#arr-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-goods">
+        <div class="product-goods__block">
+            <div class="product-goods__left">
+                <div class="product-goods__title">
+                    <div class="title title--medium">О товаре</div>
+                </div>
+                <div class="product-tabs">
+                    <ul class="product-tabs__list">
+                        <li class="product-tabs__item">
+                            <a href="#" class="product-tabs__link product-tabs__link--active">Описание</a>
+                        </li>
+                        <li class="product-tabs__item">
+                            <a href="#" class="product-tabs__link">Состав</a>
+                        </li>
+                        <li class="product-tabs__item">
+                            <a href="#" class="product-tabs__link">Видеообзор</a>
+                        </li>
+                        <li class="product-tabs__item">
+                            <a href="#" class="product-tabs__link">Руководство по кормлению</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-tabs__main">
+                    <div class="product-tabs__content">
+                        <p>Корм для взрослых собак Hill's Science Plan с ягненком и рисом специально разработан для
+                            обеспечения энергетических потребностей собак в самом расцвете их жизни. Сделан из
+                            высококачественных, легко усваиваемых ингредиентов.</p>
+                        <strong>Особенности HILLS Mature Adult 7+ ягненок и рис:</strong>
+                        <p>• Омега-6 жирные кислоты и витамин Е для красивой кожи и шерсти</p>
+                        <p>• Высококачественные ингредиенты: ягненок и рис для собак с чувствительным пищеварением</p>
+                        <p>• Высококачественный белок для поддержания мышечной массы.</p>
+                        Hill's Science Plan Active Longevity помогает сохранить функцию почек и других жизненно важных
+                        органов собак мелких и средних пород старше 7 лет: - Разработан с антиоксидантами с клинически
+                        подтвержденным эффектом, Омега-3 жирными кислотами и сниженным содержанием фосфора. -
+                        Антиоксидантные витамины Е и С для сохранения функции почек. - Высоко перевариваемые ингредиенты
+                        для легкого пищеварения. - Поддерживает функцию жизненно важных органов с помощью
+                        сбалансированного уровня минералов. - 100% гарантия качества, консистенции и вкуса Повседневный
+                        рацион для собак старше 7 лет Пробуете этот рацион впервые? Постепенно в течение 7 дней
+                        переводите животное на новый рацион, увеличивая его содержание по отношению к прежнему.
+                        Обеспечьте питомцу свободный доступ к свежей воде. Суточная норма, обозначенная на упаковке,
+                        требует корректировки для поддержания оптимального веса питомца. Не рекомендуется Кошкам Щенкам
+                        Беременным и кормящим сукам.
+                    </div>
+                </div>
+                <div class="product-tabs__btn">
+                    <a href="#" class="button button--empty">
+                        <div>Читать полностью</div>
+                    </a>
+                </div>
+            </div>
+            <div class="product-goods__right">
+                <div class="product-goods__title">
+                    <div class="title title--medium">Характеристики</div>
+                </div>
+                <div class="characteristics">
+                    <dl class="characteristics__list">
+                        @foreach($arrayCharacteristics as $characteristics)
+                            <div class="characteristics__item">
+                                <dt class="characteristics__label">{{$characteristics['label']}}</dt>
+                                <dd class="characteristics__value">{{$characteristics['value']}}</dd>
+                            </div>
+                        @endforeach
+                    </dl>
                 </div>
             </div>
         </div>

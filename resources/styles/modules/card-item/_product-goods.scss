@@ -1,0 +1,23 @@
+.product-goods {
+    max-width: 1600px;
+    margin: 80px auto;
+    background: #F4F5F8;
+    border-radius: 30px;
+
+    &__block {
+        padding: 40px 90px;
+        display: flex;
+    }
+
+    &__left {
+        width: 64%;
+    }
+
+    &__right {
+        width: 36%;
+        margin-left: 140px;
+    }
+    &__title{
+        margin-bottom: 32px;
+    }
+}

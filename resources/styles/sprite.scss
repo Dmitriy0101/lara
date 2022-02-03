@@ -23,7 +23,8 @@
         width: 17px;
         height: 17px;
     }
-    &--white{
+
+    &--white {
         stroke: #FFFFFF;
         stroke-width: 3;
     }
@@ -86,14 +87,17 @@
         stroke: #202454;
     }
 }
-.arr{
+
+.arr {
     fill: none;
     stroke: #202454;
     stroke-width: 2;
 }
-.arr-noo{
+
+.arr-noo {
     stroke: #B6B7C4;
 }
+
 .update {
     fill: #fff;
 }
@@ -155,12 +159,25 @@
 .exit {
     fill: #B6B7C4;
 }
-.catalog-label__svg{
+
+.catalog-label__svg {
     fill: white;
 }
-.help{
+
+.help {
     fill: #7B94B0;
 }
-.arrow--black{
+
+.arrow--black {
     stroke: #202454;
+}
+
+.check {
+    fill: none;
+    stroke: #FFFFFF;
+
+    &--black {
+        stroke: #202454;
+        stroke-width: 2;
+    }
 }

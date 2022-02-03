@@ -132,7 +132,7 @@
 
 // <------ CATALOG-FILTER START ------>
 @import 'modules/catalog-filter/filter';
-@import 'modules/catalog-filter/accordion';
+@import 'modules/basa/accordion';
 @import 'modules/catalog-filter/filter-block';
 @import 'modules/catalog-filter/sidebar-block';
 @import 'modules/catalog-filter/checkbox-filter';
@@ -157,3 +157,7 @@
 @import 'modules/card-item/card-large';
 @import 'modules/card-item/product-weight';
 @import 'modules/card-item/product-price';
+@import 'modules/card-item/product-delivery';
+@import 'modules/card-item/product-goods';
+@import 'modules/card-item/product-tabs';
+@import 'modules/card-item/characteristics';

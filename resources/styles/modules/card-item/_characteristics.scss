@@ -1,0 +1,29 @@
+.characteristics {
+
+    &__list {
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    &__label {
+        font-weight: normal;
+        color: #7B94B0;
+        width: 47%;
+        padding-right: 24px;
+    }
+
+    &__value {
+        font-weight: bold;
+        color: #202454;
+        width: 47%;
+    }
+}
